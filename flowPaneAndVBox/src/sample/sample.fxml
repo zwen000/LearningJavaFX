@@ -1,0 +1,46 @@
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.VBox?>
+<FlowPane fx:controller ="sample.Controller"
+xmlns:fx = "http://javafx.com/fxml"
+>
+    <Button text="Buttom One" />
+    <Button text="Buttom Two" />
+    <Button text="Buttom Three" />
+    <VBox>
+        <!-- DOESN'T wrap-->
+        <Button text="Buttom Four" />
+        <Button text="Buttom Five" />
+        <Button text="Buttom Six" />
+        <Button text="Buttom Seven" />
+    </VBox>
+    <Button text="Buttom Eight" />
+    <Button text="Buttom Nine" />
+    <Button text="Buttom Ten" />
+</FlowPane>
+
+
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import java.awt.Button?>-->
+<!--<FlowPane fx:controller ="sample.Controller"-->
+          <!--xmlns:fx = "http://javafx.com/fxml" orientation="VERTICAL" hgap="10" vgap="10"-->
+<!--&gt;-->
+
+    <!--<Button text="Buttom One" />-->
+    <!--<Button text="Buttom Two" />-->
+    <!--<Button text="Buttom Three" />-->
+    <!--<VBox>-->
+        <!--&lt;!&ndash; DOESN'T wrap&ndash;&gt;-->
+        <!--<Button text="Buttom Four" />-->
+        <!--<Button text="Buttom Five" />-->
+        <!--<Button text="Buttom Six" />-->
+        <!--<Button text="Buttom Seven" />-->
+    <!--</VBox>-->
+    <!--<Button text="Buttom Eight" />-->
+    <!--<Button text="Buttom Nine" />-->
+    <!--<Button text="Buttom Ten" />-->
+
+
+<!--</FlowPane>-->

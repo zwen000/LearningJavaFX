@@ -24,6 +24,9 @@
         <Label text="Label in the right position" />
     </right>
 
+    <center>
+        <Label text="Label in the center position and has really looooooooooooooooooooooooooooong text" />
+    </center>
 
     <bottom>
         <HBox spacing="10" alignment="CENTER_RIGHT">

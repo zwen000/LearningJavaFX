@@ -1,0 +1,30 @@
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<TilePane fx:controller ="sample.Controller"
+          xmlns:fx = "http://javafx.com/fxml"
+          vgap="10" >
+
+    <Button text="Buttom One" />
+    <Button text="Buttom Two" />
+    <Button text="Buttom Three" />
+
+    <StackPane>
+        <Button text="Buttom Fourrrrrrrrrrr" style="-fx-background-color:green"/>
+        <Button text="Buttom Five" />
+        <Button text="Buttom Six" />
+        <Button text="Buttom Seven" />
+        <Label text="A Label   1" style="-fx-background-color:red" />
+    </StackPane>
+
+    <Button text="Buttom Eight" />
+    <Button text="Buttom Nine" />
+    <Button text="Buttom Ten" />
+
+
+</TilePane>
