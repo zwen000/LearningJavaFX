@@ -52,7 +52,7 @@ public class Main {
         for(int i =0; i <5; i++){
             System.out.println(c2[i]);
         }
-
+        System.out.println("---------------------------------");
         String empty = new String();
 
         System.out.println(a1.equals(c2) );
@@ -78,8 +78,6 @@ public class Main {
         System.out.println(a2.endsWith("g") );
         int a =  a2.endsWith("1") ? a2.indexOf('s') : a2.indexOf("is",3 );
         System.out.println(a);
-
-
 
 
     }
